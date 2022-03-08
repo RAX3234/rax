@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    padding-top: 800px;
+    margin: 0;
+}
+#welcome{
+    position: absolute;
+    height: 800px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+     background: linear-gradient(#cf3434 0%, #ffd000 100%);
+}
+#Naruto{
+    width: 270px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    margin-top: 200px;
+
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    right: 130px;
+    z-index: 10;
+    cursor: pointer;
+}
+.link{
+    float: left;
+    color: aquamarine;
+    padding-left: 9px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.link:hover{
+    background-color: black;
+    font-size: 25px;
+}
